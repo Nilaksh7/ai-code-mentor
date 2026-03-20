@@ -12,19 +12,29 @@ const PORT = process.env.PORT || 5000;
 
 const allowedOrigins = [
   "http://localhost:5173",
-  process.env.FRONTEND_URL,
-].filter(Boolean);
+  "https://ai-code-mentor-tau.vercel.app",
+];
 
 app.use(
   cors({
-    origin: (origin, callback) => {
-      if (!origin || allowedOrigins.includes(origin))
+    origin: function (origin, callback) {
+      // allow requests with no origin (like Postman)
+      if (!origin) return callback(null, true);
+
+      if (allowedOrigins.includes(origin)) {
         return callback(null, true);
-      return callback(new Error(`CORS: origin ${origin} not allowed`));
+      } else {
+        return callback(new Error("CORS not allowed"));
+      }
     },
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
   }),
 );
+
+// 🔥 THIS LINE IS CRITICAL (fixes your exact error)
+app.options("*", cors());
 
 app.use(express.json({ limit: "10mb" }));
 
