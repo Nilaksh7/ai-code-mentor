@@ -12,35 +12,41 @@ An AI-powered full-stack web application that analyzes code, detects bugs, sugge
 
 ## 📸 Screenshots
 
+
 ### 🔐 Authentication (Register / Login)
 
-![Register](./frontend/public/screenshots/register.png)
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/5d6d53e5-1037-4005-ba4b-cc6d7692bcd4" />
+<img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/7a19cea4-a35f-491d-9634-488573f403e4" />
 
 ---
 
 ### 🧑‍💻 Code Analyzer (Input + Output)
 
-![Analyzer 1](./frontend/public/screenshots/analyzer1.png)
-![Analyzer 2](./frontend/public/screenshots/analyzer2.png)
-![Analyzer 3](./frontend/public/screenshots/analyzer3.png)
+<img width="1470" height="956" alt="Screenshot 2026-03-21 at 12 46 50 AM" src="https://github.com/user-attachments/assets/7e4664fa-18c9-4f69-9506-c25def3e1d26" />
+<img width="1470" height="956" alt="Screenshot 2026-03-21 at 12 45 39 AM" src="https://github.com/user-attachments/assets/2b906398-d5e8-4707-a9ad-c207c43cc0d3" />
+<img width="1470" height="956" alt="Screenshot 2026-03-21 at 12 44 52 AM" src="https://github.com/user-attachments/assets/b6ba5863-73f4-4bcb-9bae-757c35b8a7e8" />
+
 
 ---
 
 ### 📊 Dashboard
 
-![Dashboard](./frontend/public/screenshots/dashboard.png)
+<img width="1470" height="956" alt="Screenshot 2026-03-21 at 12 48 20 AM" src="https://github.com/user-attachments/assets/f3ca15a8-667e-4796-8165-eb9ce5d908b0" />
+
 
 ---
 
 ### 📜 Analysis History
 
-![History](./frontend/public/screenshots/history.png)
+<img width="1470" height="956" alt="Screenshot 2026-03-21 at 12 48 26 AM" src="https://github.com/user-attachments/assets/2a00b4f1-7376-4a7f-9031-e32938bd6568" />
+
 
 ---
 
 ### 👤 Profile
 
-![Profile](./frontend/public/screenshots/profile.png)
+<img width="1470" height="956" alt="Screenshot 2026-03-21 at 12 48 36 AM" src="https://github.com/user-attachments/assets/1307f056-8ad0-43de-88a1-495a4d4de88d" />
+
 
 ---
 
